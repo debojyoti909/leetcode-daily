@@ -1,4 +1,4 @@
-class Solution {
+class Maximum_Frequency_of_an_Element_After_Performing_Operations_I_3346 {
     public int maxFrequency(int[] nums, int k, int numOperations) {
         if(nums.length==1){
             return 1;
