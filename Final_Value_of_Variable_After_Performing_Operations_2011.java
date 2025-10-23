@@ -1,3 +1,4 @@
+import java.util.*;
 public class Final_Value_of_Variable_After_Performing_Operations_2011 {
     public int finalValueAfterOperations(String[] operations) {
         int res=0;
