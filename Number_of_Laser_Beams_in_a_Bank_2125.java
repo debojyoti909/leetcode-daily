@@ -1,4 +1,5 @@
-class Solution {
+import java.util.*;
+class Number_of_Laser_Beams_in_a_Bank_2125 {
     public int numberOfBeams(String[] bank) {
         //HashMap<Int,Int>map=new HashMap<>();
         int arr[]=new int[bank.length];
