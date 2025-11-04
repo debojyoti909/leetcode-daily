@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int minCost(String colors, int[] neededTime) {
         int res=0;
