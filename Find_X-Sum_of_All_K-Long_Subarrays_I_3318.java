@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int[] findXSum(int[] nums, int k, int x) {
         int res[]=new int[nums.length-k+1];
