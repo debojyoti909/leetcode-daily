@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Minimum_Time_to_Make_Rope_Colorful_1578 {
     public int minCost(String colors, int[] neededTime) {
         int res=0;
         for(int i=1;i<colors.length();i++){
