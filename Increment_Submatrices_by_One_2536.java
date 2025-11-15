@@ -1,3 +1,4 @@
+import java.util.*;
 public class Increment_Submatrices_by_One_2536{
     public int[][] rangeAddQueries(int n, int[][] queries) {
         int arr[][]=new int[n][n];
