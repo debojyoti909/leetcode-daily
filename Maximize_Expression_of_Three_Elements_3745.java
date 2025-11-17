@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class Maximize_Expression_of_Three_Elements_3745 {
     
