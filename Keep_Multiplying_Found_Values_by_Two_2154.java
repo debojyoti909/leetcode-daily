@@ -9,9 +9,7 @@ class Keep_Multiplying_Found_Values_by_Two_2154 {
            // res=nums[i];
             original*=2;
            }
-           
         }
         return original;
-
     }
 }
