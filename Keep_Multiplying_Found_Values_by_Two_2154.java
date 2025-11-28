@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Keep_Multiplying_Found_Values_by_Two_2154 {
+
       public int findFinalValue(int[] nums, int original) {
         int max=Integer.MIN_VALUE;
         int res=original;
