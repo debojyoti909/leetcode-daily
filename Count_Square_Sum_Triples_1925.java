@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int countTriples(int n) {
         int c=0;
