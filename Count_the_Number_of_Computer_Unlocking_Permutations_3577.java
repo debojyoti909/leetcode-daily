@@ -1,3 +1,4 @@
+import java.util.*;
 public class Count_the_Number_of_Computer_Unlocking_Permutations_3577 {
     class Solution {
     public int countPermutations(int[] complexity) {
