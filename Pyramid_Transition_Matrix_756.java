@@ -1,3 +1,4 @@
+import java.util.*;
 public class Pyramid_Transition_Matrix_756 {
     class Solution {
     public boolean pyramidTransition(String bottom, List<String> allowed) {
