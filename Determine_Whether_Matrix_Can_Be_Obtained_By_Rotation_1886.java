@@ -4,9 +4,9 @@ public class Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation_1886 {
     public boolean findRotation(int[][] mat, int[][] target) {
         int len= mat.length;
         int count=0;
-        while(count < 4){
-        for(int i=0;i< len; i++){
-            for(int j=0;j < len; j++){
+        while(count<4){
+        for(int i=0;i<len;i++){
+            for(int j=0;j<len;j++){
             if(i>j && i!=j){
                     int temp=mat[i][j];
                     mat[i][j]=mat[j][i];
@@ -14,7 +14,6 @@ public class Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation_1886 {
                 }
             }
         }
-
         for(int i=0;i<len;i++){
             int j=0;
             int k=len-1;
