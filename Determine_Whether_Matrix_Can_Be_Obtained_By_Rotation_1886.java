@@ -8,9 +8,9 @@ public class Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation_1886 {
         for(int i=0;i<len;i++){
             for(int j=0;j<len;j++){
             if(i>j && i!=j){
-                    int temp=mat[i][j];
-                    mat[i][j]=mat[j][i];
-                    mat[j][i]=temp;
+                int temp=mat[i][j];
+                mat[i][j]=mat[j][i];
+                mat[j][i]=temp;
                 }
             }
         }
