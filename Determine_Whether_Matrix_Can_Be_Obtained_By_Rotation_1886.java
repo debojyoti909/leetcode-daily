@@ -18,9 +18,9 @@ public class Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation_1886 {
             int j=0;
             int k=len-1;
             while(j<k){
-                int tempp=mat[i][j];
+                int temp=mat[i][j];
                 mat[i][j]=mat[i][k];
-                mat[i][k]=tempp;
+                mat[i][k]=temp;
                 j++;
                 k--;
             }
