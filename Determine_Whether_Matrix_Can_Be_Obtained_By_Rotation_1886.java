@@ -26,8 +26,8 @@ public class Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation_1886 {
             }
         }
         int c=0;
-        for(int i=0; i<len; i++){
-            for(int j=0; j<len; j++){
+        for(int i=0;i<len;i++){
+            for(int j=0;j<len;j++){
                 if(mat[i][j]==target[i][j]){
                     c++;
                 }
