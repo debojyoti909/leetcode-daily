@@ -36,11 +36,9 @@ public class Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation_1886 {
         if(c==(len*len)){
             return true;
         }else{
-
-            c=0;
+        c=0;
         }
-        
-            count++;
+        count++;
         }
         return false;
     }
