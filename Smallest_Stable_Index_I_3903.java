@@ -13,7 +13,6 @@ public class Smallest_Stable_Index_I_3903 {
         for(int i=nums.length-2;i>=0;i--){
             suf[i]=Math.min(suf[i+1],nums[i]);
         }
-      //  int res=0;
         for(int i=0;i<nums.length;i++){
             if(pref[i]-suf[i]<=k){
         return i;
