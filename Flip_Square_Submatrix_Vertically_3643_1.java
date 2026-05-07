@@ -1,5 +1,5 @@
 public class Flip_Square_Submatrix_Vertically_3643_1 {
-    class Solution {
+    
     public int[][] reverseSubmatrix(int[][] grid, int x, int y, int k) {
         int row=x;
         int col=x+k-1;
@@ -14,5 +14,5 @@ public class Flip_Square_Submatrix_Vertically_3643_1 {
         }
         return grid;
     }
-}
+
 }
