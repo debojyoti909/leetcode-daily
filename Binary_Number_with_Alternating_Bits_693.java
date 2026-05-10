@@ -11,7 +11,7 @@ public class Binary_Number_with_Alternating_Bits_693 {
             }
             n=n/2;
         }
-        return true;
+    return true;
     }
 }
 }
